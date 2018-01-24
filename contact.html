@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
+<!-- Contact page -->
 <html>
     <head>
-        <title>Student Bio</title>
+        <title>Contact</title>
         <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+
     </head>
     <body>
     
@@ -12,19 +14,35 @@
             <a class="navBar" href="portfolio.html">Portfolio</a>
             <a class="navBar" href="index.html">About</a>
         </div>
-        
+
         <div id="block">
-            <h2 class="block"><strong>About Me</strong></h2>
-            <section class="block">
-            <br>
-            <img src="images/keiraneversimage.jpg" width=125 height=100>
-            <p>Keira is currently employed with Liberty Mutual Insurance Group as a Systems Analyst for the Personal Insurance IT group.  </p>
+            <h2 class="block"><strong>Contact</strong></h2>
+            <section class="block" ><br>
+            <form action="/action_page.php">
+                <p>
+                <label for="name">Name</label>
+                </p>
+                <p>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                </p>
+                <p>
+                <label for="email">Email</label>
+                </p>
+                <p>
+                <input type="text" id="email" placeholder="Your email">
+                </p>
+                <p>
+                <label for="message">Message</label>
+                </p>
+                <p>
+                <input type="text255" id="message" placeholder="Message">
+                </p>
 
-            <p>In the event that Keira can't enhance her skillset to be comparable to a software developer, she is doomed.  A pink slip is inevitable.  At some unspecified date in 2018, Keira will receive her notice that she will be unemployed in 60 days.  Yup, she'll act as a Pyr Mom at that time.  </p> 
-            
-            <p>Keira is married to her husband David and lives in East Wakefield, New Hampshire where they share their home with three rescue cats and a rescue Great Pyrenees, Ruby.</p>
+                </select>
+  
+                <input type="submit" value="Submit">
+            </form>
         </div>
-
         <div id="connect">
             <h3>Connect with Me</h3>
             <section class="block"></section><br>
@@ -41,11 +59,8 @@
                 <img src="images/facebook-icon.jpg" width=200 height=150>
                 </a>
         </div>
-    </div>
         <footer>
             Copywrite 2017: Keira Nevers
-        </footer>
-                
-
+        </footer>        
     </body>
 </html>
